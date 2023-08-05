@@ -19,4 +19,4 @@ result = operand1 operator operand2
 In intermediate code generation, triples are a way of representing instructions or operations in a three-address code format. Each triple consists of three components: an operator, a source operand (usually denoted as arg1), and a destination operand (usually denoted as result).
 The general form of a triple is:
 
-(result, operator, arg1)
+(result, operator, arg1) or (destination oprnd,operator,source oprnd)
